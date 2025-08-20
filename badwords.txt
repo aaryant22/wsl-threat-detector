@@ -1,0 +1,93 @@
+select
+union select
+drop
+insert
+update
+delete
+truncate
+exec
+execute
+xp_cmdshell
+benchmark
+sleep(
+or 1=1
+' OR '
+" OR "
+-- 
+;--
+/*
+
+<script>
+</script>
+onerror=
+onload=
+alert(
+document.cookie
+cookie
+innerHTML
+eval(
+src=
+href=javascript:
+<iframe>
+<svg
+<img
+>javascript:
+;javascript:
+%3Cscript%3E
+
+../
+..\\
+/etc/passwd
+boot.ini
+passwd
+\\windows\\system32
+php://input
+data://
+
+;ls
+;cat
+| cat
+&& whoami
+`whoami`
+service
+shutdown
+reboot
+curl
+wget
+nc 
+netcat
+bash -i
+cmd.exe
+powershell
+python -c
+
+# Other Injection Clues / Generic Exploits
+alert(1)
+-- -
+; drop table
+union all select
+concat(
+cast(
+char(
+row_number()
+xmltype(
+oracle_version()
+
+%27
+%3D
+%27OR%27
+%27%20OR%20%271%27=%271
+%22%20OR%20%221%22=%221
+0x27
+0x3D
+0x22
+0x23
+
+ZAP
+zaproxy
+system.ini
+win.ini
+java.lang.thread
+colm
+chmod
+
