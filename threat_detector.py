@@ -244,6 +244,11 @@ if __name__ == "__main__":
     # predicting on new logs
     test_logs_df = pd.read_csv("testing_data.csv")
     results = detector.predict(test_logs_df)
+    output_path = 'results/predictions.csv'
+    output_dir = os.path.dirname(output_path)
+    os.makedirs(output_dir, exist_ok=True)
+    results.to_csv(output_path, index=False)
+    
     print("Breakup of is_threat:")
     print(results['is_threat'].value_counts())
     print("\nBreakup of threat_level:")
